@@ -65,6 +65,9 @@ main {
 main h1 {
   font-size: 32px;
 }
+main h4 {
+  text-align: center;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 main h5,
 i {
