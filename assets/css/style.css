@@ -1,0 +1,131 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  background-image: url(../img/sfondo.png);
+  padding: 20px;
+}
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+p {
+  font-weight: lighter;
+  padding: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #6c93d3;
+  margin: 1em 0;
+  padding: 0;
+}
+/* HEADER */
+header {
+  margin-bottom: 20px;
+  padding: 15px;
+  text-align: center;
+  background-color: #0088aa;
+  box-shadow: 0px 3px #4b4a4e;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  max-width: 200px;
+  max-height: 200px;
+}
+header h1,
+header ul {
+  color: white;
+}
+header i {
+  color: white;
+}
+/* MAIN */
+main {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+main h1 {
+  font-size: 32px;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+main h5,
+i {
+  color: #9da3a0;
+}
+.box {
+  background-color: lightgray;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.box.news h4 {
+  text-align: center;
+}
+input {
+  border-bottom: 1px dashed grey;
+}
+button {
+  color: white;
+  background-color: blue;
+}
+.paragrafo-destra {
+  text-align: right;
+}
+/* TABELLE */
+main table {
+  width: 100%;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+#titolo {
+  background-color: #4668bf;
+  color: white;
+}
+#titolo th {
+  border-right: 2px solid white;
+}
+tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+iframe {
+  text-align: center;
+  border-radius: 6px;
+}
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer {
+  color: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  text-align: center;
+  background-color: #015466;
+  box-shadow: 0px 3px #614d55;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
