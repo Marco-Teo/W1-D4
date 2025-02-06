@@ -68,6 +68,16 @@ main h5,
 i {
   color: #9da3a0;
 }
+span {
+  border-radius: 6px;
+  background-color: lightgray;
+  border: 0.5px solid grey;
+  padding: 1px;
+}
+#lista li {
+  margin-top: 10px;
+  line-height: 20px;
+}
 .box {
   background-color: lightgray;
   border: 1px solid grey;
