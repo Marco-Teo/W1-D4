@@ -70,6 +70,9 @@ main h5,
 i {
   color: #9da3a0;
 }
+main h3 {
+  text-align: center;
+}
 span {
   border-radius: 6px;
   background-color: lightgray;
